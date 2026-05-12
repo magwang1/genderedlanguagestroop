@@ -152,7 +152,7 @@ for index, row in ratings.iterrows():
 
     # Collect rating
     rating = event.waitKeys(
-        keyList=["1", "2", "3", "4", "5", "6", "7"]
+        keyList=["1", "2", "3", "4", "5"]
     )[0]
 
     # Save rating
